@@ -1,0 +1,53 @@
+.header {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--color-glass-border);
+  margin-bottom: 2rem;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header__brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header__logo {
+  font-size: 2rem;
+  color: var(--color-accent-light);
+  filter: drop-shadow(0 0 8px rgba(77, 124, 255, 0.5));
+}
+
+.header__title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #fff, var(--color-accent-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.2;
+}
+
+.header__subtitle {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-top: 0.125rem;
+}
+
+.header__badge {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: rgba(0, 82, 255, 0.2);
+  border: 1px solid rgba(0, 82, 255, 0.4);
+  border-radius: 999px;
+  color: var(--color-accent-light);
+}
