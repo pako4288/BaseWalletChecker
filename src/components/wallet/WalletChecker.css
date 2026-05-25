@@ -1,0 +1,31 @@
+.wallet-checker__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.wallet-checker__input {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.75rem 1rem;
+  font-size: 0.9375rem;
+  font-family: Consolas, Monaco, monospace;
+  color: var(--color-text);
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-glass-border);
+  border-radius: var(--radius-md);
+  outline: none;
+  transition: border-color var(--transition);
+}
+
+.wallet-checker__input:focus {
+  border-color: var(--color-accent-light);
+}
+
+.wallet-checker__input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.wallet-checker__results {
+  margin-top: 1.5rem;
+}
